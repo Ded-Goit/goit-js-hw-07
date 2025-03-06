@@ -23,6 +23,9 @@ ol {
 }
 a {
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
 }
 h1,
 h2,
@@ -36,8 +39,14 @@ p {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: auto;
+  object-fit: cover;
 }
+/*p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}*/
 /* #region task-1 */
 #categories {
   display: flex;
@@ -85,8 +94,14 @@ img {
 /* #endregion */
 /* #region task-2 */
 .gallery {
-  width: 1128px;
+  max-width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin: 0 auto;
 }
+
 /* #endregion */
 /* #region task-4 */
 .login-form {
