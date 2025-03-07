@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -39,14 +38,8 @@ p {
 img {
   display: block;
   max-width: 100%;
-  max-height: auto;
   object-fit: cover;
 }
-/*p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-}*/
 /* #region task-1 */
 #categories {
   display: flex;
@@ -54,7 +47,6 @@ img {
   gap: 24px;
   align-items: center;
   padding: 24px;
-  /*box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.247);*/
 }
 #categories > .item {
   border-radius: 8px;
@@ -71,7 +63,6 @@ img {
   letter-spacing: 0.04em;
   color: #2e2f42;
   margin-bottom: 16px;
-  transition: background-color (0.175, 0.885, 0.32, 1.275);
 }
 #categories > .item > ul > li {
   font-family: "Montserrat", sans-serif;
@@ -113,7 +104,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: 0.04em;
   color: #2e2f42;
   padding-left: 16px;
@@ -123,43 +113,37 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  /* line-height: 32px; */
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
 #name-output {
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: slidein;
 }
-
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
   }
-
   to {
     margin-left: 0%;
     width: 100%;
   }
-
   75% {
     font-size: 300%;
     margin-left: 25%;
     width: 150%;
   }
 }
-
 /* #endregion */
 /* #region task-4 */
-.login-form > label {
+.login-form label {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: 0.04em;
 }
 .login-form {
@@ -169,7 +153,7 @@ h1 {
   height: 256px;
   background: #fff;
 }
-.login-form > button {
+.login-form button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -186,19 +170,18 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   letter-spacing: 0.04em;
   color: #ffffff;
   box-shadow: 1px 1px 1px #4e75ff;
   transition: 0.5s;
 }
-.login-form > input {
+.login-form input {
   flex: auto;
   padding-left: 8px;
   width: 360px;
   height: 40px;
 }
-.login-form > button:hover {
+.login-form button:hover {
   background: #6c8cff;
   transform: translate(0, -3px);
   box-shadow: 1px 1px 10px #6c8cff;
@@ -215,19 +198,17 @@ h1 {
   padding: 100px 88px;
   width: 345px;
 }
-.widget > p {
+.widget p {
   display: flex;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   align-items: center;
   justify-content: center;
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
-
 .color {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -244,7 +225,6 @@ h1 {
   letter-spacing: 0.04em;
   color: #fff;
   border-radius: 8px;
-  padding: auto;
   margin-top: 24px;
   width: 148px;
   height: 40px;
@@ -277,12 +257,10 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   margin: 0 16px;
-
   box-shadow: inset rgba(255, 255, 255, 0.2) 8px 8px 18px 5px,
     inset rgba(0, 0, 0, 0.5) -8px -8px 18px 5px;
 }
@@ -297,7 +275,6 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
