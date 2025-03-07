@@ -17,7 +17,10 @@ function createBoxes(amount) {
     const box = document.createElement("div");
     box.style.width = `${30 + i * 10}px`;
     box.style.height = `${30 + i * 10}px`;
+    box.style.border = `1px solid #ffffff;`;
     box.style.backgroundColor = getRandomHexColor();
+    box.style.boxShadow =
+      "8px 8px 18px 5px rgba(255, 255, 255, 0.2) , -8px -8px 18px 5px rgba(0, 0, 0, 0.5)";
     boxesFragment.appendChild(box);
   }
   boxesContainer.innerHTML = ""; //Remove previous elements before adding
